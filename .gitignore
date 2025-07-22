@@ -14,20 +14,77 @@ ENV/
 # PDF Files and Temporary Data
 *.pdf
 temp.*
+temp_*
+temporary_*
 chroma_db/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Vector Database and Embeddings
+chroma_db/
+embeddings/
+vector_store/
+faiss_index/
+*.index
+*.pkl
+*.pickle
+
+# Temporary Generated Files
+temp/
+tmp/
+*.tmp
+*.temp
+cache/
+.cache/
+*.log
+*.out
 
 # IDE and Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# OS
+# OS Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Streamlit
 .streamlit/
 
-# Logs
-*.log
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model Files and Checkpoints
+models/
+checkpoints/
+*.model
+*.h5
+*.ckpt
+
+# API Keys and Secrets
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+config.json
+secrets.json
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
