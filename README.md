@@ -23,7 +23,7 @@
 <td width="50%">
 
 ### 📄 Document Processing
-- **Multiple PDF Upload** - Process several documents at once
+- **PDF Upload** - Process PDF documents
 - **Smart Text Extraction** - Advanced PDF parsing with PyPDF
 - **Vector Embeddings** - Efficient semantic search with ChromaDB
 - **Persistent Storage** - Cached embeddings for faster queries
@@ -120,7 +120,7 @@ Run `python3 setup_and_run.py` or `streamlit run app.py`
 
 ### 2. 📁 Upload Your PDFs
 - Click **"Upload a textbook or PDF notes"**
-- Select single or multiple PDF files
+- Select single PDF files
 - Wait for processing completion
 
 ### 3. 💬 Ask Questions
