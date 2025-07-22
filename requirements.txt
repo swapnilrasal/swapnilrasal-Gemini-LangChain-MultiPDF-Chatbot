@@ -1,0 +1,12 @@
+# Core Dependencies for Gemini-LangChain MultiPDF Chatbot
+streamlit>=1.47.0
+langchain>=0.3.26
+langchain-google-genai>=2.1.8
+langchain-community>=0.3.27
+langchain-text-splitters>=0.3.8
+pypdf>=5.8.0
+python-dotenv>=1.1.1
+chromadb>=1.0.15
+
+# Optional Performance Enhancement
+watchdog>=1.1.0
